@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task2_SmartHouse
 {
-    public class Lighting : Devise, ISwich, IBright
+    public class Lighting : Devise, ISwitch, IBright
     {
         public BrightnessLevel Bright{ get; set;}
         public Lighting(bool status, BrightnessLevel bright)
@@ -14,11 +14,11 @@ namespace Task2_SmartHouse
         {
             Bright = bright;
         }
-        void ISwich.SetOn()
+        void ISwitch.SetOn()
         {
             Status = true; 
         }
-        void ISwich.SetOff()
+        void ISwitch.SetOff()
         {
             Status = false;
         }

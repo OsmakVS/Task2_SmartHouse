@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Task2_SmartHouse
 {
-    class Alarm : Devise, ISwich
+    class Alarm : Devise, ISwitch
     {
         public Alarm(bool status)
             : base(status)
         {
 
         }
-        void ISwich.SetOn()
+        void ISwitch.SetOn()
         {
             Status = true;
         }
-        void ISwich.SetOff()
+        void ISwitch.SetOff()
         {
             Status = false;
         }

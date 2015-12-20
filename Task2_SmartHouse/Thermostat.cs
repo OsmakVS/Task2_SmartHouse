@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task2_SmartHouse
 {
-    class Thermostat : Devise, ITemprerature, ISwich
+    class Thermostat : Devise, ITemprerature, ISwitch
     {
         public TempLevel Tlvl { get; set; }
         public Thermostat(bool status, TempLevel tlvl)

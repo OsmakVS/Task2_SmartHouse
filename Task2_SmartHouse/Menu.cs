@@ -61,10 +61,10 @@ namespace Task2_SmartHouse
                             devDic.Remove(array[1]);
                             break;
                         case "on":
-                            ((ISwich)devDic[array[1]]).SetOn();
+                            ((ISwitch)devDic[array[1]]).SetOn();
                             break;
                         case "off":
-                            ((ISwich)devDic[array[1]]).SetOff();
+                            ((ISwitch)devDic[array[1]]).SetOff();
                             break;
                         case "chu":
                             if (devDic[array[1]] is IChannel)

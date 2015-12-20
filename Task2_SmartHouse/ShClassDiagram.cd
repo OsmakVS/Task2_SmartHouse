@@ -3,7 +3,7 @@
   <Class Name="Task2_SmartHouse.Alarm" Collapsed="true">
     <Position X="1.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAQAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEBAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Alarm.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -18,7 +18,7 @@
   <Class Name="Task2_SmartHouse.Lighting" Collapsed="true">
     <Position X="8" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAABAAAAgAAAAAEIAAAAAAAAAAAABAAQAAAAIAAAAA=</HashCode>
+      <HashCode>AAAABAAAAgAAAAAEJAAAAAAAABAAAAAAAAAAAIAAAAA=</HashCode>
       <FileName>Lighting.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -48,7 +48,7 @@
   <Class Name="Task2_SmartHouse.Tv" Collapsed="true">
     <Position X="5.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAgAABAAAAEAABAAAAAAAABABAAQAIAAAAAABA=</HashCode>
+      <HashCode>AAAAAAAgAABAAAAEBABAAAAAABABAAAAAAIAAAAAABA=</HashCode>
       <FileName>Tv.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -67,11 +67,11 @@
       <FileName>IChannel.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Task2_SmartHouse.ISwich" Collapsed="true">
+  <Interface Name="Task2_SmartHouse.ISwitch" Collapsed="true">
     <Position X="1.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAgAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ISwich.cs</FileName>
+      <FileName>ISwitch.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Task2_SmartHouse.ITemprerature" Collapsed="true">

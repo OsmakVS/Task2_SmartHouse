@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task2_SmartHouse
 {
-    class Tv : Devise, ISwich, IChannel, IVolume
+    class Tv : Devise, ISwitch, IChannel, IVolume
     {
         public int Volume { get; set; }
         public int Channel { get; set; }
@@ -17,11 +17,11 @@ namespace Task2_SmartHouse
             Volume = volume;
 
         }
-        void ISwich.SetOn()
+        void ISwitch.SetOn()
         {
             Status = true; 
         }
-        void ISwich.SetOff()
+        void ISwitch.SetOff()
         {
             Status = false;
         }
