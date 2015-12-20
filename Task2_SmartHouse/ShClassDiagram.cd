@@ -1,14 +1,102 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Task2_SmartHouse.Alarm" Collapsed="true">
+    <Position X="1.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAQAAAAAAAAAA=</HashCode>
+      <FileName>Alarm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Task2_SmartHouse.Devise" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Devise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task2_SmartHouse.Lighting" Collapsed="true">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAgAAAAAEIAAAAAAAAAAAABAAQAAAAIAAAAA=</HashCode>
+      <FileName>Lighting.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Task2_SmartHouse.Menu" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAIIAAAAAAAAAAACAAgAUAAACAAAAAAAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task2_SmartHouse.Program" Collapsed="true">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task2_SmartHouse.Thermostat" Collapsed="true">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAQAAAAAQEAgAEAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Thermostat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Task2_SmartHouse.Tv" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAABAAAAEAABAAAAAAAABABAAQAIAAAAAABA=</HashCode>
+      <FileName>Tv.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Task2_SmartHouse.IBright" Collapsed="true">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAABAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBright.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Task2_SmartHouse.IChannel" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>IChannel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Task2_SmartHouse.ISwich" Collapsed="true">
+    <Position X="1.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISwich.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Task2_SmartHouse.ITemprerature" Collapsed="true">
+    <Position X="1.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ITemprerature.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Task2_SmartHouse.IVolume" Collapsed="true">
+    <Position X="1.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVolume.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Enum Name="Task2_SmartHouse.BrightnessLevel">
-    <Position X="1.75" Y="1.75" Width="1.5" />
+    <Position X="6.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>BrightnessLevel.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="Task2_SmartHouse.TempLevel">
-    <Position X="3.75" Y="1.75" Width="1.5" />
+    <Position X="6.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>TempLevel.cs</FileName>
